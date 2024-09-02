@@ -1,0 +1,11 @@
+server:
+  port: 8081
+spring:
+  application:
+    # 用于在Eureka控制中心区分出不同的服务
+    name: product-server
+  zipkin:
+    base-url: http://192.168.0.104:9411
+  sleuth:
+    sampler:
+      probability: 1
