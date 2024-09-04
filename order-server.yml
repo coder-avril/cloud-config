@@ -46,4 +46,5 @@ hystrix:
             # Hystrix超时 > Ribbon超时: (当前实例重试的次数+1)*(切换实例重试的次数+1)*Timeout
             timeoutInMilliseconds: 10000
 
+#测试消息总线
 limitNum: 10
