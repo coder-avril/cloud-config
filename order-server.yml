@@ -45,3 +45,5 @@ hystrix:
             # 否则Hystrix命令超时后，该请求直接熔断，重试机制就没有意义了
             # Hystrix超时 > Ribbon超时: (当前实例重试的次数+1)*(切换实例重试的次数+1)*Timeout
             timeoutInMilliseconds: 10000
+
+limitNum: 10
