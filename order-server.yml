@@ -47,4 +47,4 @@ hystrix:
             timeoutInMilliseconds: 10000
 
 #测试消息总线
-limitNum: 10
+limitNum: 5
